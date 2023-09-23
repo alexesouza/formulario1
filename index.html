@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="titulo">
+            <h1>
+                PÁGINA DE CRIAÇÃO DE FORMULÁRIOS
+            </h1>
+        </div>
+    </header>
+
+    <form class="form01">
+        <label for="primeiro nome">Nome</label>
+        <input type="text" name="Nome01" id="" placeholder="Digite seu nome">
+
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="Nome02" id="" placeholder="Digite seu sobrenome">
+        
+       
+
+
+    </form>
+<hr><hr>
+<form class="form02">
+    <label for="primeiro nome">Nome</label>
+    <input type="text" name="nomeUser" id="" placeholder="Informe seu primeiro nome...">
+
+    <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="NomeUser" id="" placeholder="Digite seu sobrenome">
+
+        <label for="email">E-mail</label>
+        <input type="email" name="emailUser" placeholder="Informe o seu melhor e-mail...">
+
+    <label for="idade">Idade</label>
+    <input type="date" name="idade do usuário" id=""><br>
+    <br>   
+<h4>Informe seu gênero</h4>
+
+   <input type="radio" name="genero" id="">
+   <label for="genero">Masculino</label>
+
+   <input type="radio" name="genero" id="">
+   <label for="genero">Feminino</label><br><br>
+
+   <label for="comentario">Comentário</label>
+   <textarea name="" id="" cols="30" rows="10" placeholder="Descreva sobre você"></textarea>
+
+
+
+   <!-- função de alerta -->
+   <button type="submit" onclick="cliqueAqui()">Cadastre-se</button>
+    
+</form>
+
+<!-- função de alerta no js -->
+    <script>
+        function cliqueAqui(){
+            alert("Usuário cadastrado com sucesso!")
+        }
+    </script>
+
+</body>
+</html>
